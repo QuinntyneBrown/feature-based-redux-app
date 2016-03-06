@@ -1,4 +1,4 @@
-﻿import { Component } from "../utilities/component-decorators";
+﻿import { Component } from "../core/component-decorators";
 
 @Component({
     selector: "home",

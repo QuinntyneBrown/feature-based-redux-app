@@ -1,4 +1,4 @@
-﻿import { BaseActionCreator } from "../base";
+﻿import { BaseActionCreator } from "../core";
 
 export class CustomerActionCreator extends BaseActionCreator {
 

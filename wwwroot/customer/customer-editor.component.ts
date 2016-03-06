@@ -1,4 +1,5 @@
-﻿import { Component } from "../utilities/component-decorators";
+﻿import { Component } from "../core/component-decorators";
+import { CustomerActionCreator } from "./customer.action-creator";
 
 @Component({
     selector: "customer-editor",
@@ -6,5 +7,6 @@
 })
 export class CustomerEditorComponent {
 
+    storeOnChanges = state => { }
 
 }
