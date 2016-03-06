@@ -72,7 +72,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="gulpfile.js" />
     <Content Include="packages.config" />
+    <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -90,12 +94,25 @@
     <Folder Include="wwwroot\home\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
     <TypeScriptCompile Include="wwwroot\base\action-creator.ts" />
+    <TypeScriptCompile Include="wwwroot\base\index.ts" />
     <TypeScriptCompile Include="wwwroot\base\service.ts" />
+    <TypeScriptCompile Include="wwwroot\bootstrap.ts" />
+    <TypeScriptCompile Include="wwwroot\customer\customer-editor.component.ts" />
+    <TypeScriptCompile Include="wwwroot\customer\customer.reducers.ts" />
     <TypeScriptCompile Include="wwwroot\customer\customer.service.ts" />
     <TypeScriptCompile Include="wwwroot\customer\customer.action-creator.ts" />
     <TypeScriptCompile Include="wwwroot\customer\customers.component.ts" />
     <TypeScriptCompile Include="wwwroot\customer\customer.component.ts" />
+    <TypeScriptCompile Include="wwwroot\utilities\break-point-manager.ts" />
+    <TypeScriptCompile Include="wwwroot\utilities\component-decorators.ts" />
+    <TypeScriptCompile Include="wwwroot\utilities\component-extension.ts" />
+    <TypeScriptCompile Include="wwwroot\utilities\index.ts" />
+    <TypeScriptCompile Include="wwwroot\utilities\local-storage-manager-provider.ts" />
+    <TypeScriptCompile Include="wwwroot\utilities\store.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

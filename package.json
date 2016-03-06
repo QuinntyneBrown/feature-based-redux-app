@@ -1,0 +1,38 @@
+{
+  "name": "feature-based-redux-app",
+  "version": "1.0.0",
+  "description": "Feature Based Redux App",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinntyneBrown/feature-based-redux-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinntyneBrown/feature-based-redux-app/issues"
+  },
+  "homepage": "https://github.com/QuinntyneBrown/feature-based-redux-app#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-animate": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-sanitize": "^1.5.0",
+    "angular-ui-tinymce": "0.0.14",
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack": "^1.5.0",
+    "rx": "^4.0.7",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.13"
+  }
+}
