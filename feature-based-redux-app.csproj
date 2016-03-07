@@ -80,6 +80,21 @@
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
+    <Content Include="wwwroot\customer\customer-editor.component.html">
+      <DependentUpon>customer-editor.component.ts</DependentUpon>
+    </Content>
+    <Content Include="wwwroot\customer\customer.component.html">
+      <DependentUpon>customer.component.ts</DependentUpon>
+    </Content>
+    <Content Include="wwwroot\customer\customers.component.html">
+      <DependentUpon>customers.component.ts</DependentUpon>
+    </Content>
+    <Content Include="wwwroot\home\home.component.html">
+      <DependentUpon>home.component.ts</DependentUpon>
+    </Content>
+    <Content Include="wwwroot\shared\header.component.html">
+      <DependentUpon>header.component.ts</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
